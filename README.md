@@ -13,18 +13,28 @@ CREATE DATABASE task_management;
 
 ### Backend
 bash
+
 cd backend
+
 npm install
+
 cp .env.example .env
+
 # Edit .env with your credentials
+
 npm run dev
+
 
 
 ### Frontend
 bash
+
 cd frontend
+
 npm install
+
 npm start
+
 
 
 ## API
@@ -40,4 +50,5 @@ npm start
 
 ## Env
 
-Configuration of .env not published on git due to security of AI settings (listed in .gitignore)
+Configuration of .env not published on git due to security of AI settings (listed in .gitignore).
+
