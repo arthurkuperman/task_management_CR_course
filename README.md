@@ -36,3 +36,8 @@ npm start
 - POST /api/tasks/ai - AI create task
 - PUT /api/tasks/:id - Update task
 - DELETE /api/tasks/:id - Delete task
+
+
+## Env
+
+Configuration of .env not published on git due to security of AI settings (listed in .gitignore)
