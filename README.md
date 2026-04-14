@@ -15,7 +15,7 @@ CREATE DATABASE task_management;
 bash
 cd backend
 npm install
-mv env-template.txt .env
+cp .env.example .env
 # Edit .env with your credentials
 npm run dev
 
