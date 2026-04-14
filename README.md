@@ -1,3 +1,5 @@
+# Project developed by: Arthur Kuperman and Yair Haendler
+
 # AI-Powered Task Management System
 
 Full-stack task management with 3-tier architecture and AI-powered creation.
