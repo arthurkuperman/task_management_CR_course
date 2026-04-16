@@ -51,4 +51,6 @@ npm start
 ## Env
 
 Configuration of .env not published on git due to security of AI settings (listed in .gitignore).
+Moreover, it works succesfully as shown in folder results_output, screenshot_results.png
+The settings of AI connection to bedrock is the used for professional reasons (not shared with git) 
 
