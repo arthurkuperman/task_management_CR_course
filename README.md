@@ -27,43 +27,70 @@ parses the input and extracts structured task data including title,
 description, priority, due date, and status.
 
 ## Project Structure
-├── backend/
-│   ├── server.js
-│   ├── config/ (database.js, bedrock.js)
-│   ├── models/ (Task.js)
-│   ├── controllers/ (taskController.js)
-│   ├── services/ (aiService.js)
-│   ├── routes/ (taskRoutes.js)
-│   ├── middleware/ (validation.js)
-│   └── package.json
-├── frontend/
-│   ├── src/
-│   │   ├── components/ (TaskList, TaskItem, TaskForm, AITaskCreator)
-│   │   ├── services/ (api.js)
-│   │   ├── App.jsx
-│   │   └── index.js
-│   └── package.json
-└── results_output/ (screenshots proving functionality)
+
+```
+backend/
+├── server.js
+├── config/
+│   ├── database.js
+│   └── bedrock.js
+├── models/
+│   └── Task.js
+├── controllers/
+│   └── taskController.js
+├── services/
+│   └── aiService.js
+├── routes/
+│   └── taskRoutes.js
+├── middleware/
+│   └── validation.js
+└── package.json
+
+frontend/
+├── src/
+│   ├── components/
+│   │   ├── TaskList.jsx
+│   │   ├── TaskItem.jsx
+│   │   ├── TaskForm.jsx
+│   │   └── AITaskCreator.jsx
+│   ├── services/
+│   │   └── api.js
+│   ├── App.jsx
+│   └── index.js
+└── package.json
+
+results_output/
+└── (screenshots proving functionality)
+```
+
 
 ## Setup
 
 ### Database
-sql
+
+```sql
 CREATE DATABASE task_management;
+```
 
 ### Backend
-bash
+```bash
 cd backend
 npm install
 cp .env.example .env
 # Edit .env with your credentials
 npm run dev
+```
 
 ### Frontend
-bash
+```bash
+
 cd frontend
 npm install
 npm start
+```
+
+
+
 
 ## API Endpoints
 
