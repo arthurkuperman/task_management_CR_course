@@ -88,5 +88,23 @@ Configuration is stored in `.env` (not published to Git for security).
 See `.env.example` for required variables.
 
 The AI connection to AWS Bedrock uses credentials not shared in the 
-repository for security reasons. Successful results are demonstrated 
-in the `results_output/` folder.
+repository for security reasons. 
+
+## Output
+
+Successful results are demonstrated in the `results_output/` folder.
+
+### Application Screenshot
+- `screenshot_result.png` — Screenshot of the running application
+
+### Postman API Validation Screenshots
+| Endpoint | Method | Screenshot |
+|---|---|---|
+| /api/tasks | GET | `postman_GET_all_tasks.png` |
+| /api/tasks | POST | `postman_POST_create_task.png` |
+| /api/tasks/ai | POST | `postman_POST_ai_task.png` |
+| /api/tasks/:id | PUT | `postman_PUT_update_task.png` |
+| /api/tasks/:id | DELETE | `postman_DELETE_task.png` |
+
+
+
